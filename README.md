@@ -18,8 +18,8 @@ Import time allows us to work with time
 from subprocess import check_output gets the output of the calling program in python.
 
 <br>import os
-<br>import numpy as np</br>
-<br>from collections import Counter</br>
+<br>import numpy as np
+<br>from collections import Counter
 <br>from sklearn.naive_bayes import GaussianNB</br>
 <br>from sklearn.metrics import accuracy_score</br>
 <br>import time</br>
