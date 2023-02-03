@@ -9,7 +9,7 @@ The training, test, and emails are locaed in the file data.zip, within my reposi
 
 <b>The libraries and source for the data are below:</b>
 
-#In this section we are importing libraries
+In this section we are importing libraries
 The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory
 Import numpy allows us to turn our dataframe into an array
 Counter is an unordered collection where elements are stored as Dict keys and their count as dict value. 
@@ -17,7 +17,7 @@ Sklearn naive bayes and metrics will help us run the model and get an accuracy s
 Import time allows us to work with time
 from subprocess import check_output gets the output of the calling program in python.
 
-<br>import os</br>
+<br>import os
 <br>import numpy as np</br>
 <br>from collections import Counter</br>
 <br>from sklearn.naive_bayes import GaussianNB</br>
