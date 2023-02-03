@@ -9,7 +9,7 @@ The training, test, and emails are locaed in the file data.zip, within my reposi
 
 <b>The libraries and source for the data are below:</b>
 
-###In this section we are importing libraries
+#In this section we are importing libraries
 The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory
 Import numpy allows us to turn our dataframe into an array
 Counter is an unordered collection where elements are stored as Dict keys and their count as dict value. 
