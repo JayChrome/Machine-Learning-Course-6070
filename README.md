@@ -1,5 +1,5 @@
 # Machine-Learning-Course-6070
-This repository hosts code dedicated to my eperience in ML 6070. The files need to be run in Python. Download the notebooks, open them on you preferred python program and then run all the code to see the outputs. Runtime should be about 4 seconds for the entire file. 
+This repository hosts code dedicated to my eperience in ML 6070. The files need to be run in Python. Download the notebooks, open them on you preferred python program and then run all the code to see the outputs. Runtime should be about 4 seconds for the entire file, unless otherwise noted.
 
 <b>CA01</b> - is exemplary of an exploraty data analysis (EDA) for House Price Dataset. All steps of EDA are included besides collinearity, dimensionality reduction, and handle class imbalance. 
 
