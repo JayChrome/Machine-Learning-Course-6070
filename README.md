@@ -1,6 +1,26 @@
 # Machine-Learning-Course-6070
-This repository hosts code dedicated to my eperience in ML 6070. The files need to be run in Python. Download the notebooks, open them on you preferred python program and then run all the code to see the outputs. Runtime should be about 4 seconds for the entire file, unless otherwise noted.
+This repository hosts code dedicated to my eperience in ML 6070. The files need to be run in Python and are sourced from my Machine Learning class. Download the notebooks, open them on you preferred python program and then run all the code to see the outputs. I am currenly useing Jupyter Lab Notebook 3.3.2. Runtime should be about 4 seconds for the entire file, unless otherwise noted.
 
 <b>CA01</b> - is exemplary of an exploraty data analysis (EDA) for House Price Dataset. All steps of EDA are included besides collinearity, dimensionality reduction, and handle class imbalance. 
 
-<b>CA02</b> - This partuclar code is focused on creating an email spam filter for emails and measuring the accuracy of the model with two datasets, train-mails and test-mails, through Naive Bayes. This code takes approximately 80 seconds to run on python lab and yeilds an accuracy score of 1.0. Meaning that the model correctly predicted classiicaions 100% of the time.  
+<b>CA02</b> - This partuclar code is focused on creating an email spam filter for 702 emails and measuring the accuracy of the model with two datasets, train-mails and test-mails, through Naive Bayes. The emails are already split between spam and non-spam messages and the model was tested with a 70/30 split for training and test data. This code takes approximately 80 seconds to run on python lab and yeilds an accuracy score of 1.0. Meaning that the model correctly predicted classiicaions 100% of the time. 
+
+The training, test, and emails are locaed in the file data.zip, within my repository for reference. 
+
+The libraries and source for the data are below:
+
+# In this section we are importing libraries
+# The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory
+# Import numpy allows us to turn our dataframe into an array
+# Counter is an unordered collection where elements are stored as Dict keys and their count as dict value. 
+#Sklearn naive bayes and metrics will help us run the model and get an accuracy score
+#Import time allows us to work with time
+#from subprocess import check_output gets the output of the calling program in python.
+import os
+import numpy as np
+from collections import Counter
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import accuracy_score
+import time
+from subprocess import check_output
+
