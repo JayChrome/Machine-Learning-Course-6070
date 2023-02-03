@@ -7,7 +7,7 @@ This repository hosts code dedicated to my eperience in ML 6070. The files need 
 
 The training, test, and emails are locaed in the file data.zip, within my repository for reference. 
 
-<font size="+2"><b>The libraries and source for the data are below:</b></font>
+<font size=2><b>The libraries and source for the data are below:</b></font>
 
 <br>In this section we are importing libraries
 <br>The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory
