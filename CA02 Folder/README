@@ -1,5 +1,4 @@
 CA02 - This partuclar code is focused on creating an email spam filter for 702 emails and measuring the accuracy of the model with two datasets, train-mails and test-mails, through Naive Bayes. The emails are already split between spam and non-spam messages and the model was tested with a 70/30 split for training and test data. This code takes approximately 80 seconds to run on python lab and yeilds an accuracy score of 1.0. Meaning that the model correctly predicted classiicaions 100% of the time.
-
 The training, test, and emails are locaed in the file data.zip, within my repository for reference.
 
 The libraries and source for the data are below:
