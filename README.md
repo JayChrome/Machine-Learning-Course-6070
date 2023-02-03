@@ -20,8 +20,8 @@ from subprocess import check_output gets the output of the calling program in py
 <br>import os
 <br>import numpy as np
 <br>from collections import Counter
-<br>from sklearn.naive_bayes import GaussianNB</br>
-<br>from sklearn.metrics import accuracy_score</br>
-<br>import time</br>
-<br>from subprocess import check_output</br>
+<br>from sklearn.naive_bayes import GaussianNB
+<br>from sklearn.metrics import accuracy_score
+<br>import time
+<br>from subprocess import check_output
 
