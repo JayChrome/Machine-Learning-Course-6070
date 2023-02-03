@@ -17,11 +17,11 @@ Sklearn naive bayes and metrics will help us run the model and get an accuracy s
 Import time allows us to work with time
 from subprocess import check_output gets the output of the calling program in python.
 
-import os
+<br>import os
 import numpy as np
 from collections import Counter
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
 import time
-from subprocess import check_output
+from subprocess import check_output</br>
 
