@@ -1,0 +1,48 @@
+---This repository hosts code dedicated to my eperience in ML 6070. The files need to be run in Python and are sourced from my Machine Learning class.
+Download the notebooks, open them on you preferred python program and then run all the code to see the outputs. I am currenly useing Jupyter Lab Notebook
+3.3.2. Runtime should be about 4 seconds for the entire file, unless otherwise noted.---
+
+CA03 - In this notebook I ingest provided census data and go through steps to analyze the it, build a Decision Tree model, and tune it according the BEST
+hyperameters for making the model the best predictor. This code takes approximately 40 seconds to run in JuypterLab and yielded an accuracy score of 84%.
+
+
+The training, test, and emails are locaed in the file data.zip, within my repository for reference. 
+
+The libraries and source for the data are below:
+
+Install these libraries before running your code
+!pip install --upgrade pip
+!pip install scikit-learn 
+!pip install numpy
+!pip install pandas
+!pip install ydata-quality
+!pip install six
+!pip install graphviz
+!pip install pydotplus
+
+Make sure to import these at the beginning
+
+#Import necessary libraries
+import time
+from datetime import datetime
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline 
+plt.style.use('seaborn-whitegrid')
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import classification_report
+import numpy as np
+from sklearn.tree import export_graphviz
+from sklearn.metrics import confusion_matrix
+import math
+from sklearn.metrics import precision_recall_fscore_support
+import six
+import sys
+sys.modules['sklearn.externals.six'] = six
+from sklearn.externals.six import StringIO
+from six import StringIO
+from IPython.display import Image
+from sklearn.tree import export_graphviz
+import pydotplus
+import graphviz
