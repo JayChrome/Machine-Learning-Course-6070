@@ -5,6 +5,9 @@ Download the notebooks, open them on you preferred python program and then run a
 CA03 - In this notebook I ingest provided census data and go through steps to analyze the it, build a Decision Tree model, and tune it according the BEST
 hyperameters for making the model the best predictor. This code takes approximately 40 seconds to run in JuypterLab and yielded an accuracy score of 84%.
 
+You can find the data below:
+https://raw.githubusercontent.com/ArinB/MSBA-CA-03-Decision-Trees/master/census_data.csv
+
 
 The training, test, and emails are locaed in the file data.zip, within my repository for reference. 
 
