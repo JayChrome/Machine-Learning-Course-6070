@@ -1,7 +1,9 @@
 In this notebook I use Census data to test and train my model with different classifiers, Rain Forest, Adaboost, Gradient Boost, and XGB. Steps were taken to explore the
 data in CA03, thus none of the like steps were taken for this assignment, asides from removing unnecessary charcters from the data ("a.", "b.", etc). Classsifiers were
 univaritely tested to determine the optimal n_estimator and the effect that it had on AUC and accuracy for each. Notably, graphs within the notebook detail the comparisson
-between accuracy vs the n_estimator and AUC vs. the n_estimator. 
+between accuracy vs the n_estimator and AUC vs. the n_estimator.
+
+You can find the data here: https://raw.githubusercontent.com/ArinB/MSBA-CA-03-Decision-Trees/master/census_data.csv
 
 This code was created using Jupter lab and the total runtime for this notebook is 4 minutes and 3 seconds.
 
