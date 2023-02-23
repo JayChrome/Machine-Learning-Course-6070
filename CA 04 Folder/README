@@ -1,0 +1,33 @@
+In this notebook I use Census data to test and train my model with different classifiers, Rain Forest, Adaboost, Gradient Boost, and XGB. Steps were taken to explore the
+data in CA03, thus none of the like steps were taken for this assignment, asides from removing unnecessary charcters from the data ("a.", "b.", etc). Classsifiers were
+univaritely tested to determine the optimal n_estimator and the effect that it had on AUC and accuracy for each. Notably, graphs within the notebook detail the comparisson
+between accuracy vs the n_estimator and AUC vs. the n_estimator. 
+
+This code was created using Jupter lab and the total runtime for this notebook is 4 minutes and 3 seconds.
+
+To run this code, please make sure that you install the below packages. 
+!pip install xgboost
+!pip install --upgrade pip
+!pip install scikit-learn 
+!pip install numpy
+!pip install pandas
+
+The following libraries were imported:
+
+#Import necessary libraries
+import xgboost as xgb
+import time
+from datetime import datetime
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline 
+plt.style.use('seaborn-whitegrid')
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import classification_report
+import numpy as np
+from sklearn.metrics import confusion_matrix
+import math
+from sklearn.metrics import precision_recall_fscore_support
+from sklearn.metrics import roc_auc_score
+from sklearn.metrics import plot_roc_curve
