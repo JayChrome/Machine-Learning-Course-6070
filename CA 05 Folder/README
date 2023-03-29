@@ -1,1 +1,16 @@
-this blasfalsdf
+In this notebook I used unlabeled IDMB movie (n=30) to create a KNN predictive Model to infer which 5 movies to recommend based on those that are closest
+to the movie, The Post. 
+
+You can find the data here:  https://github.com/ArinB/MSBA-CA-Data/raw/main/CA05/movies_recommendation_data.csv
+
+This code was created using Juypter lab and the total runtime for this notebook is .59 seconds.
+
+The following libraries were imported:
+
+#import libraries
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import StandardScaler
+from matplotlib import pyplot as plt
+from sklearn import preprocessing
+from sklearn.neighbors import NearestNeighbors
