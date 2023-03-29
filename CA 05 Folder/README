@@ -1,9 +1,9 @@
-In this notebook I used unlabeled IDMB movie (n=30) to create a KNN predictive Model to infer which 5 movies to recommend based on those that are closest
+In this notebook I used unlabeled IDMB movie data (n=30) to create a KNN predictive Model to infer which 5 movies to recommend based on those that are closest
 to the movie, The Post. 
 
-You can find the data here:  https://github.com/ArinB/MSBA-CA-Data/raw/main/CA05/movies_recommendation_data.csv
+You can find the data here: https://github.com/ArinB/MSBA-CA-Data/raw/main/CA05/movies_recommendation_data.csv
 
-This code was created using Juypter lab and the total runtime for this notebook is .59 seconds.
+This code was created using Juypter Lab and the total runtime for this notebook is .59 seconds.
 
 The following libraries were imported:
 
