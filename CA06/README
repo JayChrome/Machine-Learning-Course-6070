@@ -1,1 +1,26 @@
+--This repository hosts code dedicated to my eperience in ML 6070. The files need to be run in Python and are sourced from my Machine Learning class.
+Download the notebooks, open them on you preferred python program and then run all the code to see the outputs. I am currenly useing Jupyter Lab Notebook
+3.3.2. Runtime should be about 4 seconds for the entire file, unless otherwise noted.---
 
+CA06: KMeans Clustering - This notebook is focused on creating a KMeans Clustering machine learning model to identify clusters / segment groups amongst mall customers
+in the dataset. Using the variables Spending Scoare and Annual Income, the optimal number of clusters were determined using the silhoutte score, which resulted in
+5 clusters. Each of the five customer groups ranged from customers that had low - high spending scores and low - high annual income. The intracluster and intercluster
+similarities show that the clusters are good clusters, while a few (mentioned in the notebook) are undoubtedly, slightly better clusters than others. 
+
+Using this analysis, I would reccomend that stakeholders become more familiar with their customer segments by giving them names, leanrning more about
+their characteristics, and discuss where they would most like to optimizie profit - low spenders or high spenders. It's important to note that there would be different
+marketing implications for each; though, there market research should be done for the groups the mall is most intersted. 
+
+It took me 50 seconds to run this entire notebook.
+
+The data that I used for this notebook is located here: https://github.com/ArinB/MSBA-CA-Data/raw/main/CA06/Mall_Customers.csv
+
+The libraries and source for the data are below:
+
+
+import pandas as pd
+import seaborn as sns
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import silhouette_score
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
